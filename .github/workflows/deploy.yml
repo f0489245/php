@@ -37,7 +37,7 @@ jobs:
 
           local-dir: ./
 
-          server-dir: ./domains/f1321036.xsph.ru/public_html/web/
+          server-dir: ./domains/f1321036.xsph.ru/public_html/
 
           exclude: |
             **/.git*
