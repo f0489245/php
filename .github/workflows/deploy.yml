@@ -28,8 +28,8 @@ jobs:
       - name: Deploy website
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
-          server: f1321036.xsph.ru
-          username: f1321036
+          server: ${{ secrets.FTP_USERNAME }}.xsph.ru
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
 
           protocol: ftp
@@ -37,7 +37,7 @@ jobs:
 
           local-dir: ./
 
-          server-dir: ./domains/f1321036.xsph.ru/public_html/
+          server-dir: ./domains/${{ secrets.FTP_USERNAME }}.xsph.ru/public_html/
 
           exclude: |
             **/.git*
