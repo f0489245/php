@@ -9,6 +9,9 @@
 
 <body>
     <h1>Лабораторные работы</h1>
+    <ol>
+        <li><a href="./lab1/vars.php">Задание vars.php</a></li>
+    </ol>
 </body>
 
 </html>
