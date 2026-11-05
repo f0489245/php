@@ -11,6 +11,7 @@
     <h1>Лабораторные работы</h1>
     <ol>
         <li><a href="./lab1/vars.php">Задание vars.php</a></li>
+        <li><a href="./lab1/if.php">Задание if.php</a></li>
     </ol>
 </body>
 
